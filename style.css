@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    font-family: sans-serif;
+}
+
+a {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    width: auto;
+    padding: 0px;
+    margin: 0;
+    gap: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 25px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.first {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.first-content {
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.first-content, .second-content, 
+.third-content, .fourth-content,
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    gap: 250px;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.subtitle {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.body {
+    display: flex;
+    gap: 50px;
+    justify-content: left;
+}
+
+.left, .right {
+    width: 300px;   
+}
+
+.right {
+    background-color: gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    padding: 50px 0px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.tiles {
+    display: flex;
+    gap: 45px;
+    padding-bottom: 70px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 25px;
+}
+
+.tile-text {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    max-width: 106px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 100px;
+}
+
+.author {
+    font-weight: 900;
+}
+
+.third-content{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    gap: 15px;
+    padding-bottom: 100px
+}
+
+.content-box {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 100px;
+    padding: 35px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-top {
+    font-weight: 700;
+}
+
+.left-bottom {
+    font-size: 14px;
+}
+
+.right-half button {
+    border: 1px solid #F9FAF8;
+    padding: 5px 15px;
+}
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 30px;
+    font-size: 12px;
+}
+
